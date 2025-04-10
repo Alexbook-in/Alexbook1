@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<!-- /Added by HTTrack -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALEX BOOK</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&amp;family=Oswald:wght@700&amp;display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="hero">
+
+        <div class="conent">
+
+
+            <h1 class="heading1">ALEX BOOK</h1>
+            <h2 class="h2">ASIA KI NO.1 BOOK</h2>
+
+        </div>
+
+        <br/>
+        <div class="counter">Free 20% Bonus Ends In</div>
+        <br/>
+        <br/>
+        <br/>
+        <div class="timer" id="countdown">1:00</div>
+        <br/>
+        <br/>
+        <div class="content-wrapper">
+
+            <div class="points ">
+                <ul>
+
+                    <li><i class="fa-solid fa-share"></i> 20% Welcome Bonus </li>
+                    <li><i class="fa-solid fa-share"></i> Instant Deposit Instant Withdrawals </li>
+                    <li><i class="fa-solid fa-share"></i> 5min Withdrawls Guaranteed!</li>
+
+
+                </ul>
+            </div>
+        </div>
+
+
+
+        <div class="button">
+            <a href="https://api.whatsapp.com/send?phone=919329097839&text=I%20NEED%20%F0%9F%86%94%20WITH%2020%25%20BONUS" class=" btn btn--stripe">
+        GET YOUR ID NOW! <i class="fa-brands fa-whatsapp " aria-hidden="true"></i></a>
+        </div>
+
+        <!--<p style="color:white;font-size:18px">This Channel is Advertised By <br> <a style="color:yellow" href="https://alvo.chat/487W">adysolutions</a></p>-->
+
+
+    </div>
+
+    <script>
+        let remainingSeconds = 60;
+
+
+        function updateCountdown() {
+            document.getElementById("countdown").innerHTML = `${remainingSeconds}`;
+
+
+            remainingSeconds -= 1;
+
+
+            if (remainingSeconds < 0) {
+                remainingSeconds = 60;
+            }
+
+        }
+
+        updateCountdown();
+        const countdownInterval = setInterval(updateCountdown, 1000);
+    </script>
+</body>
+
+</html>
